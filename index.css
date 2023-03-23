@@ -84,7 +84,6 @@ a:hover {
 #hero .btn {
   margin-top: 1em;
   margin-bottom: 1.5em;
-  height: 2em;
 }
 
 /* Container elements */
@@ -108,12 +107,22 @@ a:hover {
   margin-bottom: 3em;
 }
 
+@media (max-width: 800px) {
+  #price {
+    flex-direction: column;
+  }
+
+  .product {
+    margin-bottom: 20px;
+  }
+}
+
 .product {
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px solid;
-  width: 15em;
+  width: 17em;
   height: 15em;
 }
 
@@ -130,7 +139,7 @@ a:hover {
 
 .btn {
   width: 7em;
-  height: 2.5em;
+  height: 2em;
   border-radius: 20px;
   border: none;
   background-color: black;
@@ -177,8 +186,9 @@ a:hover {
 }
 
 #items ul {
+  font-size: large;
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
