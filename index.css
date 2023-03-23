@@ -128,3 +128,26 @@ a:hover {
   font-size: medium;
   border-radius: 20px;
 }
+
+#features .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 200px;
+}
